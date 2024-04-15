@@ -1,0 +1,140 @@
+
+1) What are the advantages of Bootstrap?
+->
+    A) Responsive Desing
+    B) Consistency
+    C) Customization
+    D) Cross-browser Compatibility
+    E) Fast development
+    F) Community Support
+    G) Accesibility
+
+2) What is a Bootstrap Container, and how does it work ?
+->
+   - Bootstrap container is a class used to wrap and contain the content of a website or web application.
+   - it provides a structure layout for organizing elements on the page.
+   - The container is typically used to create a fixed-width container that helps control the layout and responsiveness of the content.
+
+-> Here's how the container class work
+  - 
+     <div class="container">
+               <!-- Content goes Here -->
+     </div>
+
+3)  What are the default Bootstrap text settings?
+->
+   - Bootstrap the default text setting include a base font size of 16 pixels, a line height of 1.5, and various heading sizes with 
+     corresponding margins and line heights for hierarchicle structuring.
+   - Boostrap applies styles for font weight, color, and spacing to ensure consistency and readability across diffrent device and browsers.
+
+4)  What do you know about the Bootstrap Grid System ?
+->
+   - The Boostrap  Grid system is a powerful layout untile that allows developers to create responsive and mobile-first web desin. Here the some key      points about the Boostrap grid system.
+              
+                  A) Responsive desing
+                  B) Container
+                  C) Row and Columns
+                  E) Responsive Breakpoints
+                  F) Nesting
+                  G) offsetting Columns
+                  H) Alingment and Ordering
+                  I) Customization.
+
+5) What is the difference between Bootstrap 4 and Bootstrap 5 ?
+->
+   - Boostrap 5 has removed the JQuery depenency, aiming for a more modern and lightweightapproach.
+
+
+  BASIS OF	                                   BOOTSTRAP 4	                                             BOOTSTRAP 5
+
+ Grid System	                        It has 5 tier (xs, sm, md, lg, xl).	                  It has 6 tier (xs, sm, md, lg, xl, xxl).
+
+ Color	                                    It has limited colors.	                           Extra colors added with the looks, A card 
+                                                                                                   improved color palette. there are various 
+                                                                                                         shades available to choose.
+
+ Jquery	                              It has jquery and all related plugins.	                    Jquery is removed and switched to vanilla 
+                                                                                                          JS with some working plugins
+
+Internet Explorer	              Bootstrap 4 supports both IE 10 and 11.	                    Bootstrap 5 doesn’t support IE 10 and 11.
+
+ 	 
+Utilities API	                      We cannot modify utilities in bootstrap 4	                      Bootstrap 5 gave freedom to modify and also                                                                                                              create our own utility
+
+Gutter	                                 We use .glutter with fontsize in px	                           We use .g* with fontsize in rem
+
+Vertical Classes	                  Columns can be positioned relative	                         Columns cannot be positioned relative
+
+Bootstrap Icons          	Bootstrap 4 doesn’t have its own SVG icons,                              Bootstrap 5 have its own SVG icons
+                                  we have to use font-awesome for icons.	
+
+Jumbotron	                                It supports.	                                              It doesn’t support jumbotron.
+
+Card deck	                The card deck is used to create a set of cards with                     Card deck class in removed in bootstrap
+                                         equal width and height.
+	
+Navbar	                        We have inline-block property and we will get white                  Inline-block property is removed and we will get 
+                                 dropdown as default for dropdown-menu-dark class.	              black dropdown as default for dropdown-menu-                                                                                                                           dark class.
+ 
+RTL Support	                  It does not enable RTL(Right to Left) switching.	             It enables RTL(Right to Left) switching.
+
+Offcanvas Component	               It does not support Offcanvas Component.	                    It supports Offcanvas Component(that is it is                                                                                                                    available now).
+
+6) What is a Button Group, and what is the class for a basic Button Group?
+->
+   - Boostrap a button group is a group of buttons that are visually groued together. This is often used to group related  actions or option. The      class for a basic button group in Boostrap is '.btn-group'. You can apply this class to a div containing a set of butons to create a button      group.
+
+7) How can you use Bootstrap to make thumbnails ?
+-> 
+  - <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Thumbnails</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="https://via.placeholder.com/150" class="img-thumbnail" alt="Thumbnail">
+            </div>
+            <div class="col-md-4">
+                <img src="https://via.placeholder.com/150" class="img-thumbnail" alt="Thumbnail">
+            </div>
+            <div class="col-md-4">
+                <img src="https://via.placeholder.com/150" class="img-thumbnail" alt="Thumbnail">
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+
+8)  In Bootstrap 4, what is flexbox?
+->
+   -  Boostrap 4  flexbox refers to the flexible box layout model used for creating responsive and flexible layout. flexbox provides a more efficient       way to distribute space and aalign items within a container ,making it easier to create complex layout that adapt to diffrent screen size and       device . Bootsrap 4 utilizes flexbox extensively for its grid system and various  componets, allowind developers to easily create responsive       and dynamic layout.
+
+9) How can one create an alert in Bootstrap ?
+->
+     -  <div class="alert alert-success" role="alert">
+                  This is a Success Alert !
+        </div>
+
+10) What is a bootstrap card and how would you create one ?
+->
+ 
+ 
+        
+   
